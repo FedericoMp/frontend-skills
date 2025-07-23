@@ -5,7 +5,7 @@
     --col-slate-300: hsl(212, 45%, 89%);
     --col-slate-500: hsl(216, 15%, 48%);
     --col-slate-900: hsl(218, 44%, 22%);
-    --col-link: hsl(216, 100%, 60%);
+    --col-link: hsl(216, 85%, 32%);
     --bor-rad: .6rem;
 }
 
@@ -45,7 +45,7 @@ html, body, main {
     opacity: .5;
     font-weight: 100;
     position: absolute;
-    /* visibility: hidden; */
+    visibility: hidden;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ h3.qr-title {
 }
 
 p.qr-text {
-    opacity: .5;
+    opacity: .7;
     padding: 0 .7rem;
     /* MF */
     font-size: .8rem;
@@ -93,14 +93,13 @@ p.qr-text {
 /* Attribution */
 .attribution {
     bottom: 1rem;
-    font-weight: 100;
-    font-size: x-small;
+    font-size: small;
     text-align: center;
     position: absolute;
 }
 
 .attribution a {
-    font-size: x-small;
+    font-size: small;
     text-decoration: none;
     color: var(--col-link);
 }
