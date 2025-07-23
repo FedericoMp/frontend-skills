@@ -1,6 +1,7 @@
 /* Variables */
 :root {
     --col-white: hsl(0, 0%, 100%);
+    --col-shadow: hsl(0deg 0% 0% / 20%);
     --col-slate-300: hsl(212, 45%, 89%);
     --col-slate-500: hsl(216, 15%, 48%);
     --col-slate-900: hsl(218, 44%, 22%);
@@ -56,6 +57,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     background-color: var(--col-white);
+    box-shadow: 2px 2px 8px 0px var(--col-shadow);
     /* MF */
     transform: scale(.9);
 }
