@@ -39,16 +39,25 @@ html, body {
     background-color: var(--col-slate-300);
 }
 
+.headline {
+    top: 1rem;
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+}
+
 /* QR Card */
 .qr-card {
     display: flex;
-    padding: .8rem;
+    padding-bottom: .8rem;
     max-width: 250px;
     text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     background-color: var(--col-white);
+    /* MF */
+    transform: scale(.9);
 }
 
 .qr-border-radius {
@@ -57,22 +66,24 @@ html, body {
 
 img.qr-img {
     width: 100%;
-    margin-bottom: 1.25rem;
+    margin-bottom: .8rem;
+    /* MF */
+    transform: scale(.9);
 }
 
 h3.qr-title {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0 .5rem;
+    padding: 0 .7rem;
     /* MF */
-    font-size: .8rem;
+    font-size: 1.1rem;
 }
 
 p.qr-text {
     opacity: .5;
-    padding: 0 .5rem;
+    padding: 0 .7rem;
     /* MF */
-    font-size: .6rem;
+    font-size: .8rem;
 }
 
 /* Attribution */
@@ -91,18 +102,28 @@ p.qr-text {
 
 /* Responsive 290, 360, 570, 720, 960, 1200 */
 @media screen and (min-width: 290px) {
-    h3.qr-title{
-        font-size: .9rem;
-    }
-
-    p.qr-text {
-        font-size: .7rem;
+    .qr-card {
+        transform: none;
     }
 }
 
-@media screen and (min-width: 570px) {
-    h3.qr-title,
+@media screen and (min-width: 720px) {
+    h3.qr-title{
+        font-size: 1.25rem;
+    }
     p.qr-text {
-        font-size: revert;
+        font-size: .95rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .qr-card {
+        max-width: 300px;
+    }
+    h3.qr-title{
+        font-size: 1.5rem;
+    }
+    p.qr-text {
+        font-size: 1rem;
     }
 }
