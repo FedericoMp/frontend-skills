@@ -10,6 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+  - [Before commit](#before-commit)
 - [Author](#author)
 
 ## Overview
@@ -39,6 +40,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [ARIA roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles) - ARIA roles provide semantic meaning to content and can be used to describe elements.
 
+- [CSS Lint](https://csslint.net/) - A usefull tool to found css errors and warnings, with a possible solution.
+
+- [Web Accessibility Testing](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/) - Accessibility Checker for Developers, to find and fix more accessibility issues during website development.
+
+### Before commit
+
+Always remember to check the essentials:
+- Accessibility: **Web Accessibility Testing**
+- Styles: **CSS Lint**
 
 ## Author
 
