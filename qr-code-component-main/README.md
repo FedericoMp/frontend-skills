@@ -37,6 +37,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Custom css properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties) - Custom properties (CSS variables) that represent specific values to be reused throughout a document.
 
+- [ARIA roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles) - ARIA roles provide semantic meaning to content and can be used to describe elements.
+
 
 ## Author
 
