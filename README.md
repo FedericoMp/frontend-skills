@@ -5,6 +5,23 @@ I’m Federico Pérez, frontend developer & web designer, self-taught programer 
 > This repo contain sample projects to practice differents skills
 
 
+## Useful resources
+
+- [CSS Lint](https://csslint.net/) - A usefull tool to found css errors and warnings, with a possible solution.
+
+- [Web Accessibility Testing](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/) - Accessibility Checker for Developers, to find and fix more accessibility issues during website development.
+
+`Developer mode tips`:
+
+- You can install npm package `stylelint` to check your styles with a powerfull linter (recommended and used by Frontend Mentors on the page) and fix it.
+
+- And also check the html with [axe Accessibility Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter) Vs Code extension to improve the markup accessibility.
+
+### Before commit
+
+Always remember to check the essentials:
+- Accessibility: **Web Accessibility Testing**
+- Styles: **CSS Lint**
 
 ## 💼 &nbsp;Skills
 

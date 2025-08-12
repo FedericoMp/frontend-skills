@@ -1,0 +1,22 @@
+{
+  "name": "frontend-skills",
+  "version": "1.0.0",
+  "description": "This is a sample template page that contains different projects with the main goal to practice differents tech skills.",
+  "main": "",
+  "scripts": {
+    "clint": "stylelint \"**/*.css\"",
+    "cfix": "stylelint \"**/*.css\" --fix"
+  },
+  "keywords": ["Frontend", "Website", "Web Design", "Apps", "Development"],
+  "author": "Federico Perez",
+  "repository": {
+    "type": "git",
+    "url": "https://federicomp.github.io/frontend-skills"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}

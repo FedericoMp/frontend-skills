@@ -1,24 +1,24 @@
 /* Variables */
 :root {
-    --col-white: hsl(0, 0%, 100%);
+    --col-white: hsl(0deg 0% 100%);
     --col-shadow: hsl(0deg 0% 0% / 20%);
-    --col-slate-300: hsl(212, 45%, 89%);
-    --col-slate-500: hsl(216, 15%, 48%);
-    --col-slate-900: hsl(218, 44%, 22%);
-    --col-link: hsl(216, 85%, 32%);
+    --col-slate-300: hsl(212deg 45% 89%);
+    --col-slate-500: hsl(216deg 15% 48%);
+    --col-slate-900: hsl(218deg 44% 22%);
+    --col-link: hsl(216deg 85% 32%);
     --bor-rad: .6rem;
 }
 
 /* Fonts */
 .ft-outfit-400 {
-  font-family: "Outfit", sans-serif;
+  font-family: Outfit, sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .ft-outfit-700 {
-  font-family: "Outfit", sans-serif;
+  font-family: Outfit, sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -59,7 +59,8 @@ html, body, main {
     flex-direction: column;
     justify-content: center;
     background-color: var(--col-white);
-    box-shadow: 2px 2px 8px 0px var(--col-shadow);
+    box-shadow: 2px 2px 8px 0 var(--col-shadow);
+
     /* MF */
     transform: scale(.9);
 }
@@ -71,6 +72,7 @@ html, body, main {
 img.qr-img {
     width: 100%;
     margin-bottom: .8rem;
+
     /* MF */
     transform: scale(.9);
 }
@@ -79,6 +81,7 @@ h3.qr-title {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0 .7rem;
+
     /* MF */
     font-size: 1.1rem;
 }
@@ -86,6 +89,7 @@ h3.qr-title {
 p.qr-text {
     opacity: .7;
     padding: 0 .7rem;
+
     /* MF */
     font-size: .8rem;
 }
@@ -105,28 +109,31 @@ p.qr-text {
 }
 
 /* Responsive 290, 360, 570, 720, 960, 1200 */
-@media screen and (min-width: 290px) {
+@media screen and (width >= 290px) {
     .qr-card {
         transform: none;
     }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (width >= 720px) {
     h3.qr-title{
         font-size: 1.25rem;
     }
+
     p.qr-text {
         font-size: .95rem;
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (width >= 960px) {
     .qr-card {
         max-width: 300px;
     }
+
     h3.qr-title{
         font-size: 1.5rem;
     }
+
     p.qr-text {
         font-size: 1rem;
     }
