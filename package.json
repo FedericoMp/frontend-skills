@@ -7,7 +7,13 @@
     "clint": "stylelint \"**/*.css\"",
     "cfix": "stylelint \"**/*.css\" --fix"
   },
-  "keywords": ["Frontend", "Website", "Web Design", "Apps", "Development"],
+  "keywords": [
+    "Frontend",
+    "Website",
+    "Web Design",
+    "Apps",
+    "Development"
+  ],
   "author": "Federico Perez",
   "repository": {
     "type": "git",
@@ -16,6 +22,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "normalize.css": "^8.0.1",
     "stylelint": "^16.23.1",
     "stylelint-config-standard": "^39.0.0"
   }
