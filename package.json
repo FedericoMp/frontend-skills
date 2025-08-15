@@ -22,7 +22,6 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "normalize.css": "^8.0.1",
     "stylelint": "^16.23.1",
     "stylelint-config-standard": "^39.0.0"
   }
