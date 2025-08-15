@@ -11,13 +11,43 @@ I’m Federico Pérez, frontend developer & web designer, self-taught programer 
 
 - [Web Accessibility Testing](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/) - Accessibility Checker for Developers, to find and fix more accessibility issues during website development.
 
-`Developer mode tips`:
+`Developer Tips`:
 
-- You can install npm package `stylelint` to check your styles with a powerfull linter (recommended and used by Frontend Mentors on the page) and fix it.
+- You can install npm package [`stylelint`](https://stylelint.io/user-guide/get-started) to check your styles with a powerfull linter (recommended and used by Frontend Mentors on the page) and fix it.
 
 - And also check the html with [axe Accessibility Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter) Vs Code extension to improve the markup accessibility.
 
-### Before commit
+- Installed [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) for Vs Code to develop in a local server
+
+- Added [`normalize.css`](https://necolas.github.io/normalize.css/) for every html file to render all elements more consistently and in line with modern standards.
+
+- Created js script to serve the main file that contains all the Frontend Mentor projects grid and replace the absolute path from GitHub Pages with the local development provided by Live Preview.
+
+## Project structure
+
+```
+Frontend-Skills
+│   README.md
+│   package.json    
+│   .stylelintrc.json
+│   axe-linter.yml    
+│   index.html    
+│
+└───styles
+│   └───main.css
+│
+└───scripts
+│   └───index.js
+│   
+└───[Frontend-Mentor-Project: Name]
+    │   README.md
+    │   index.html
+    └───images
+    └───styles
+        └───index.css
+```
+
+## Before commit
 
 Always remember to check the essentials:
 - Accessibility: **Web Accessibility Testing**
