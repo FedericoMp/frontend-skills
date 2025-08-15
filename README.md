@@ -23,6 +23,8 @@ I’m Federico Pérez, frontend developer & web designer, self-taught programer 
 
 - Created js script to serve the main file that contains all the Frontend Mentor projects grid and replace the absolute path from GitHub Pages with the local development provided by Live Preview.
 
+- Created templates/base.html to copy the main structure with the global styles and favicon to develop other components.
+
 ## Project structure
 
 ```
@@ -32,6 +34,9 @@ Frontend-Skills
 │   .stylelintrc.json
 │   axe-linter.yml    
 │   index.html    
+│
+└───templates
+│   └───base.html
 │
 └───styles
 │   └───main.css
