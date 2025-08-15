@@ -52,7 +52,7 @@ html, body, main {
 /* QR Card */
 .qr-card {
     display: flex;
-    padding-bottom: .8rem;
+    padding-bottom: 1.2rem;
     max-width: 250px;
     text-align: center;
     align-items: center;
@@ -80,15 +80,15 @@ img.qr-img {
 h3.qr-title {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0 .7rem;
+    padding: 0 1.25rem;
 
     /* MF */
     font-size: 1.1rem;
 }
 
 p.qr-text {
-    opacity: .7;
-    padding: 0 .7rem;
+    color: var(--col-slate-500);
+    padding: 0 1.25rem;
 
     /* MF */
     font-size: .8rem;
